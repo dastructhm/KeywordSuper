@@ -1,15 +1,15 @@
 package com.company;
 
 public class User {
-    String UserID = "NA";
+    String TypeOfID = "N.A.";
 
     public void CheckAge(int AgeOfUser){
         if(AgeOfUser < 12){
-            System.out.println("You are banned again.");
+            System.out.println("You are banned.");
         }
 
         if(AgeOfUser > 12){
-            System.out.println("You are free.");
+            System.out.println("You are free to register.");
         }
     }
 }
