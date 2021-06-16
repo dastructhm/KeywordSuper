@@ -1,7 +1,7 @@
 package com.company;
 
 public class User {
-    String IDOfUser = "NA";
+    String UserID = "NA";
 
     public void CheckAge(int AgeOfUser){
         if(AgeOfUser < 12){
