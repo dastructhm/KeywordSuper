@@ -9,5 +9,7 @@ public class NewUser extends User{
         if(super.IDOfUser == "NA"){
             System.out.println("You are too young.");
         }
+
+        super.CheckAge(13);
     }
 }

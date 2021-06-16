@@ -7,5 +7,9 @@ public class User {
         if(AgeOfUser < 12){
             System.out.println("You are banned again.");
         }
+
+        if(AgeOfUser > 12){
+            System.out.println("You are free.");
+        }
     }
 }
