@@ -11,6 +11,4 @@ public class NewUser extends User{
         System.out.println(super.TypeOfID);
         System.out.println(TypeOfID);
     }
-
-
 }
